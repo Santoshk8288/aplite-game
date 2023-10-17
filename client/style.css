@@ -1,0 +1,34 @@
+.avatar {
+  padding-top:200px;
+  vertical-align: middle;
+  width: 20%;
+  height: 50%;
+  border-radius: 50%;
+}
+.sign-in{
+	text-align: center;
+}
+#player-name{
+  width: 50%;
+  height: 50px;
+  font-size: 50px;
+}
+img:hover .avatar{
+  border: 1px solid #000000;
+}
+.msg-canvas{
+  border: 1px solid #000000;
+  width: 1024px;
+  margin:  0 auto;
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0.45);
+  position: absolute;
+  left:  0;
+  right:  0;
+  top: 240px;
+}
+.score-canvas{
+  position: absolute;
+  left: 40px;
+  border: 1px solid #000000
+}
